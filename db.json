@@ -1,12 +1,162 @@
-{"tipos":[
+{
+  "funcionarios": [
+    { "id": 1, "nomeCompleto": "Marcos", "cpf": "148954", "telefoneCelular": "152458963", "email": "Marcos@exemplo.com"},
+    { "id": 2, "nomeCompleto": "Lucas", "cpf": "178546", "telefoneCelular": "145784236", "email": "Lucas@exemplo.com"},
+    { "id": 3, "nomeCompleto": "Roberto", "cpf": "112546", "telefoneCelular": "15486563", "email": "Roberto@exemplo.com"},
+    { "id": 4, "nomeCompleto": "Max", "cpf": "124589", "telefoneCelular": "154823547", "email": "Max@exemplo.com"},
+    { "id": 5, "nomeCompleto": "Pedro", "cpf": "123456", "telefoneCelular": "457863211", "email": "Pedro@exemplo.com"}
+  ],
+  "clientes": [
+    { "id": 1, "nomeCompleto": "Fabio", "cpf": "124589", "telefoneCelular": "1124521356", "email": "Fabio@exemplo.com","dispositivos":[{
+        "idDispositivo1": 1,
+        "idDispositivo2": 2}
+    ]},
+    { "id": 2, "nomeCompleto": "Rodrigo", "cpf": "145896", "telefoneCelular": "542136547", "email": "Rodrigo@exemplo.com","dispositivos":[{
+        "idDispositivo1": 3,
+        "idDispositivo2": 4}
+    ]},
+    { "id": 3, "nomeCompleto": "Ricardo", "cpf": "145321", "telefoneCelular": "8845521561", "email": "Ricardo@exemplo.com","dispositivos":[{
+        "idDispositivo1": 5,
+        "idDispositivo2": 6}
+    ]},
+    { "id": 4, "nomeCompleto": "Emerson", "cpf": "124536", "telefoneCelular": "445633521", "email": "Emerson@exemplo.com","dispositivos":[{
+        "idDispositivo1": 7,
+        "idDispositivo2": 8}
+    ]},
+    { "id": 5, "nomeCompleto": "Sandro", "cpf": "145124", "telefoneCelular": "458965236", "email": "Sandro@exemplo.com","dispositivos":[{
+        "idDispositivo1": 9,
+        "idDispositivo2": 10}
+    ]}
+    
+  ], 
+"dispositivos":[
     {
-    "id": 1, "nomeTipo": ""}
+        "id": 1, "idMarca": 1, "idModelo": 1, "ano": "2024"
+    },
+    {
+        "id": 2, "idMarca": 2, "idModelo": 1, "ano": "2020"
+    },
+    {
+        "id": 3, "idMarca": 3, "idModelo": 1, "ano": "2021"
+    },
+    {
+        "id": 4, "idMarca": 1, "idModelo": 2, "ano": "2018"
+    },
+    {
+        "id": 5, "idMarca": 2, "idModelo": 2, "ano": "2015"
+    },
+    {
+        "id": 6, "idMarca": 3, "idModelo": 2, "ano": "2016"
+    },
+    {
+        "id": 7, "idMarca": 1, "idModelo": 2, "ano": "2022"
+    },
+    {
+        "id": 8, "idMarca": 2, "idModelo": 3, "ano": "2023"
+    },
+    {
+        "id": 9, "idMarca": 3, "idModelo": 3, "ano": "2016"
+    },
+    {
+        "id": 10, "idMarca": 1, "idModelo": 3, "ano": "2014"
+    }
+
+],
+"modelos": [
+    {
+        "id": 1, "idMarca": 1, "nomeModelo": "Iphone 15"
+    },
+    {
+        "id": 2, "idMarca": 1, "nomeModelo": "Iphone 14"
+    },
+    {
+        "id": 3, "idMarca": 1, "nomeModelo": "Iphone 16"
+    },
+    {
+        "id": 4, "idMarca": 1, "nomeModelo": "Iphone 12"
+    },
+    {
+        "id": 5, "idMarca": 2, "nomeModelo": "Galaxy A05"
+    },
+    {
+        "id": 6, "idMarca": 2, "nomeModelo": "Galaxy M35"
+    },
+    {
+        "id": 7, "idMarca": 2, "nomeModelo": "Galaxy M15"
+    },
+    {
+        "id": 8, "idMarca": 3, "nomeModelo": "Moto G24"
+    },
+    {
+        "id": 9, "idMarca": 3, "nomeModelo": "Moto G04"
+    },
+    {
+        "id": 10, "idMarca": 3, "nomeModelo": "Moto G54"
+    }
+],
+"marcas":[
+  {
+     "id": 1, "nome": "Iphone"
+  },
+  {
+     "id": 2, "nome": "Samsusg"
+  },
+  {
+     "id": 3, "nome": "Motorola"
+  }
+],
+"consertos":[
+    {
+       "id":1, "idCliente": 1,"idDispositivo":1, "idFuncionario":1, "observacoes": "Tela quebrada", "valor": 500,"dataEsperada": 5
+    },
+    {
+        "id": 2 ,"idCliente": 2,"idDispositivo":3, "idFuncionario":2, "observacoes": "Entrada do carregador", "valor": 250,"dataEsperada": 5
+    },
+    {
+        "id":3, "idCliente": 3,"idDispositivo":5, "idFuncionario":3, "observacoes": "Bateria estufada", "valor": 150,"dataEsperada": 7
+    },
+    {
+        "id": 4, "idCliente": 4,"idDispositivo":7, "idFuncionario":4, "observacoes": "Sem informações", "valor": 600,"dataEsperada": 10
+    },
+    {
+        "id": 5, "idCliente": 5,"idDispositivo":9, "idFuncionario":5, "observacoes": "Trocar película", "valor": 20,"dataEsperada": 2
+    }
 ],
 "produtos":[
     {
-        "id": 1, "nomeProduto": "", "preco": 0, "idMarca": 1, "idTipo": 1, "cor": "", "quantidade": 1
+        "id":1, "nome": "SamsungM35", "preco":1000, "idMarca": 2, "idtipoProduto": 1,"cor":"Preto","quantidade":5
+    },
+    {
+        "id":2, "nome": "Carregador Samsung", "preco": 20, "idMarca": 2, "idtipoProduto":2,"cor":"Branco","quantidade":10
+    },
+    {
+        "id":3, "nome": "IPod", "preco": 50, "idMarca": 3, "idtipoProduto": 3,"cor":"Branco","quantidade":20
+    },
+    {
+        "id":4, "nome": "PeliculaM35", "preco": 20, "idMarca": 2, "idtipoProduto": 4,"cor":"Transparente","quantidade":30
+    },
+    {
+        "id":5, "nome": "CapinhaM35", "preco": 15, "idMarca": 2, "idtipoProdutoProduto": 5,"cor":"Diversos","quantidade":20
     }
 ],
-"consertos":[{
-    "id": 1, "idCliente": 1, "idDispositivo": 1, "idFuncionarioResponsavel": 1, "observacoes": "", "valorConserto": 1, "dataEsperada": ""
-}   ]}
+"tipoProdutos":
+[
+    {
+        "id": 1, "nome":"Celular"
+    },
+    {
+        "id": 2, "nome":"Carregador"
+    },{
+        "id": 3, "nome":"Fone"
+    },
+    {
+        "id": 4, "nome":"Pelicula"
+    },
+    {
+        "id": 5, "nome":"Capinha"
+    }
+
+
+]
+
+}
