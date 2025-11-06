@@ -93,5 +93,70 @@
     {
         "id": 10, "idMarca": 3, "nomeModelo": "Moto G54"
     }
+],
+"marcas":[
+  {
+     "id": 1, "nome": "Iphone"
+  },
+  {
+     "id": 2, "nome": "Samsusg"
+  },
+  {
+     "id": 3, "nome": "Motorola"
+  }
+],
+"consertos":[
+    {
+       "id":1, "idCliente": 1,"idDispositivo":1, "idFuncionario":1, "observacoes": "Tela quebrada", "valor": 500,"dataEsperada": 5
+    },
+    {
+        "id": 2 ,"idCliente": 2,"idDispositivo":3, "idFuncionario":2, "observacoes": "Entrada do carregador", "valor": 250,"dataEsperada": 5
+    },
+    {
+        "id":3, "idCliente": 3,"idDispositivo":5, "idFuncionario":3, "observacoes": "Bateria estufada", "valor": 150,"dataEsperada": 7
+    },
+    {
+        "id": 4, "idCliente": 4,"idDispositivo":7, "idFuncionario":4, "observacoes": "Sem informações", "valor": 600,"dataEsperada": 10
+    },
+    {
+        "id": 5, "idCliente": 5,"idDispositivo":9, "idFuncionario":5, "observacoes": "Trocar película", "valor": 20,"dataEsperada": 2
+    }
+],
+"produtos":[
+    {
+        "id":1, "nome": "SamsungM35", "preco":1000, "idMarca": 2, "idtipoProduto": 1,"cor":"Preto","quantidade":5
+    },
+    {
+        "id":2, "nome": "Carregador Samsung", "preco": 20, "idMarca": 2, "idtipoProduto":2,"cor":"Branco","quantidade":10
+    },
+    {
+        "id":3, "nome": "IPod", "preco": 50, "idMarca": 3, "idtipoProduto": 3,"cor":"Branco","quantidade":20
+    },
+    {
+        "id":4, "nome": "PeliculaM35", "preco": 20, "idMarca": 2, "idtipoProduto": 4,"cor":"Transparente","quantidade":30
+    },
+    {
+        "id":5, "nome": "CapinhaM35", "preco": 15, "idMarca": 2, "idtipoProdutoProduto": 5,"cor":"Diversos","quantidade":20
+    }
+],
+"tipoProdutos":
+[
+    {
+        "id": 1, "nome":"Celular"
+    },
+    {
+        "id": 2, "nome":"Carregador"
+    },{
+        "id": 3, "nome":"Fone"
+    },
+    {
+        "id": 4, "nome":"Pelicula"
+    },
+    {
+        "id": 5, "nome":"Capinha"
+    }
+
+
 ]
+
 }
