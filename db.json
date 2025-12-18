@@ -31,67 +31,67 @@
   ], 
 "dispositivos":[
     {
-        "id": 1, "idMarca": 1, "idModelo": 1, "ano": "2024"
+        "id": 1, "idMarca": "Iphone", "idModelo": "Iphone 15", "ano": "2024"
     },
     {
-        "id": 2, "idMarca": 2, "idModelo": 1, "ano": "2020"
+        "id": 2, "idMarca": "Samsumg", "idModelo": "Galaxy A05", "ano": "2020"
     },
     {
-        "id": 3, "idMarca": 3, "idModelo": 1, "ano": "2021"
+        "id": 3, "idMarca": "Motorola", "idModelo": "Moto G24", "ano": "2021"
     },
     {
-        "id": 4, "idMarca": 1, "idModelo": 2, "ano": "2018"
+        "id": 4, "idMarca": "Iphone", "idModelo": "Iphone 14", "ano": "2018"
     },
     {
-        "id": 5, "idMarca": 2, "idModelo": 2, "ano": "2015"
+        "id": 5, "idMarca": "Samsumg", "idModelo": "Galaxy M35", "ano": "2015"
     },
     {
-        "id": 6, "idMarca": 3, "idModelo": 2, "ano": "2016"
+        "id": 6, "idMarca": "Motorola", "idModelo": "Moto G04", "ano": "2016"
     },
     {
-        "id": 7, "idMarca": 1, "idModelo": 2, "ano": "2022"
+        "id": 7, "idMarca": "Iphone", "idModelo": "Iphone 14", "ano": "2022"
     },
     {
-        "id": 8, "idMarca": 2, "idModelo": 3, "ano": "2023"
+        "id": 8, "idMarca": "Samsumg", "idModelo": "Galaxy M15", "ano": "2023"
     },
     {
-        "id": 9, "idMarca": 3, "idModelo": 3, "ano": "2016"
+        "id": 9, "idMarca": "Motorola", "idModelo": "Moto G54", "ano": "2016"
     },
     {
-        "id": 10, "idMarca": 1, "idModelo": 3, "ano": "2014"
+        "id": 10, "idMarca": "Iphone", "idModelo": "Iphone 16", "ano": "2014"
     }
 
 ],
 "modelos": [
     {
-        "id": 1, "idMarca": 1, "nomeModelo": "Iphone 15"
+        "id": 1, "idMarca": "Iphone", "nomeModelo": "Iphone 15"
     },
     {
-        "id": 2, "idMarca": 1, "nomeModelo": "Iphone 14"
+        "id": 2, "idMarca": "Iphone", "nomeModelo": "Iphone 14"
     },
     {
-        "id": 3, "idMarca": 1, "nomeModelo": "Iphone 16"
+        "id": 3, "idMarca": "Iphone", "nomeModelo": "Iphone 16"
     },
     {
-        "id": 4, "idMarca": 1, "nomeModelo": "Iphone 12"
+        "id": 4, "idMarca": "Iphone", "nomeModelo": "Iphone 12"
     },
     {
-        "id": 5, "idMarca": 2, "nomeModelo": "Galaxy A05"
+        "id": 5, "idMarca": "Samsumg", "nomeModelo": "Galaxy A05"
     },
     {
-        "id": 6, "idMarca": 2, "nomeModelo": "Galaxy M35"
+        "id": 6, "idMarca": "Samsumg", "nomeModelo": "Galaxy M35"
     },
     {
-        "id": 7, "idMarca": 2, "nomeModelo": "Galaxy M15"
+        "id": 7, "idMarca": "Samsumg", "nomeModelo": "Galaxy M15"
     },
     {
-        "id": 8, "idMarca": 3, "nomeModelo": "Moto G24"
+        "id": 8, "idMarca": "Motorola", "nomeModelo": "Moto G24"
     },
     {
-        "id": 9, "idMarca": 3, "nomeModelo": "Moto G04"
+        "id": 9, "idMarca": "Motorola", "nomeModelo": "Moto G04"
     },
     {
-        "id": 10, "idMarca": 3, "nomeModelo": "Moto G54"
+        "id": 10, "idMarca": "Motorola", "nomeModelo": "Moto G54"
     }
 ]
 
